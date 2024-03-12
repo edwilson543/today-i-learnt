@@ -1,0 +1,4 @@
+baseURL = 'https://ed-wilson-til.co.uk/'
+languageCode = 'en-us'
+title = 'Today I learnt'
+theme = 'ananke'
