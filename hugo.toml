@@ -1,4 +1,4 @@
-baseURL = 'https://ed-wilson-til.co.uk/'
+baseURL = 'https://ed-wilson.org/'
 languageCode = 'en-us'
 title = 'Today I learnt'
 theme = 'ananke'
