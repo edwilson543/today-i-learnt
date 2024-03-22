@@ -1,4 +1,45 @@
-baseURL = 'https://ed-wilson.org/'
-languageCode = 'en-us'
-title = 'Today I learnt'
-theme = 'ananke'
+baseURL = "https://ed-wilson.org/"
+languageCode = "en-us"
+title = "Today I learnt"
+theme = "ananke"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3
+googleAnalytics = ""
+enableRobotsTXT = true
+
+
+[params]
+  author = "Ed Wilson"
+
+  # Copy
+  description = "miscellaneous learnings."
+  recent_copy = "Recent posts"
+  recent_posts_number = 3
+  read_more_copy = "read more"
+
+  # Styling
+  background_color_class = "bg-dark-green"
+  body_classes = "avenir bg-light-yellow"
+  related_box_color_class = "bg-light-green"
+  post_content_classes = "serif"
+  text_color = "black"
+
+  # Formatting
+  date_format = "January 2, 2006"
+
+  # Statics
+  favicon = ""
+  site_logo = ""
+
+  [params.contact]
+    email = ""
+    phone = ""
+
+  [[params.ananke_socials]]
+    name = "github"
+    url = "https://github.com/edwilson543/"
+  [[params.ananke_socials]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/ed-wilson-3378b71b8/"
