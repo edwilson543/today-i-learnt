@@ -1,0 +1,15 @@
+<div class="relative w-100 mb4 nested-copy-line-height">
+  <div class="mb3 pa4 gray overflow-hidden">
+    <h1 class="f3 fw1 athelas mt0 lh-title">
+      <a href="{{.RelPermalink}}" class="color-inherit dim link">
+        {{ .Title }}
+      </a>
+    </h1>
+    <p>
+      {{ .Date | time.Format .Site.Params.date_format }}
+    </p>
+    <a href="{{.RelPermalink}}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">
+      {{ $.Param "read_more_copy" | default (i18n "readMore") }}
+    </a>
+  </div>
+</div>
