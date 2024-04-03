@@ -1,7 +1,6 @@
 +++
 title = 'A more efficient way to extract IDs from Foreign Key fields'
 date = 2024-02-19T18:34:46Z
-draft = true
 tags = ["Python", "Django", "Database"]
 +++
 
